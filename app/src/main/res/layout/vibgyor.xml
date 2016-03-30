@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/red"
+        android:id="@+id/textView_red"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/red"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/orange"
+        android:id="@+id/textView_orange"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/orange"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/yellow"
+        android:id="@+id/textView_yellow"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/yellow"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/green"
+        android:id="@+id/textView_green"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/blue"
+        android:id="@+id/textView_blue"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/indigo"
+        android:id="@+id/textView_indigo"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/indigo"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/violet"
+        android:id="@+id/textView_violet"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/violet"
+        android:textSize="@dimen/text_size" />
+
+</LinearLayout>
